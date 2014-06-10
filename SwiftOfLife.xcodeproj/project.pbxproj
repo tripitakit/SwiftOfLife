@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD7B5BE719471F20007C51D5 /* Gol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7B5BE619471F20007C51D5 /* Gol.swift */; };
 		CDCB6FF5194701E300B21C97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB6FF4194701E300B21C97 /* AppDelegate.swift */; };
 		CDCB6FF7194701E300B21C97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCB6FF6194701E300B21C97 /* ViewController.swift */; };
 		CDCB6FFA194701E300B21C97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCB6FF8194701E300B21C97 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD7B5BE619471F20007C51D5 /* Gol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gol.swift; sourceTree = "<group>"; };
 		CDCB6FEF194701E300B21C97 /* SwiftOfLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftOfLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCB6FF3194701E300B21C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDCB6FF4194701E300B21C97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				CDCB6FF8194701E300B21C97 /* Main.storyboard */,
 				CDCB6FFB194701E300B21C97 /* Images.xcassets */,
 				CDCB6FF2194701E300B21C97 /* Supporting Files */,
+				CD7B5BE619471F20007C51D5 /* Gol.swift */,
 			);
 			path = SwiftOfLife;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDCB6FF7194701E300B21C97 /* ViewController.swift in Sources */,
+				CD7B5BE719471F20007C51D5 /* Gol.swift in Sources */,
 				CDCB6FF5194701E300B21C97 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +403,7 @@
 				CDCB700D194701E300B21C97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDCB700E194701E300B21C97 /* Build configuration list for PBXNativeTarget "SwiftOfLifeTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +412,7 @@
 				CDCB7010194701E300B21C97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
