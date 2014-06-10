@@ -1,7 +1,8 @@
 SwiftOfLife
 ===========
-Swift of Life
-A Conway's Game of Life implementation, to study Swift and have fun. Prototype app for iOS. Game is rendered in a single UILabel.
+Conway's Game of Life implementation, to study Swift and have fun.
+
+Prototype app for iOS, the whole game is rendered in a single UILabel.
 
 ··OOO···O····OO··OOO·O··OO·O····
 
