@@ -9,8 +9,9 @@
 class Gol {
     let rows: Int,
         columns: Int,
-        livingCell: String,
-        deadCell: String,
+    
+        livingCell = "O",
+        deadCell = "·",
         neighborsPositions = [
             [-1,-1],[-1,0],[-1,1],
             [0,-1],[0,1],
@@ -24,9 +25,6 @@ class Gol {
         self.rows = rows
         self.columns = columns
         self.grid = Array(count: rows * columns, repeatedValue: false)
-        
-        self.livingCell = "O"
-        self.deadCell = "·"
     }
     
     func indexIsValidForRow(row: Int, column: Int) -> Bool {
@@ -63,7 +61,6 @@ class Gol {
         var scene = ""
         var evolGrid : Bool[] = []
         for row in 0..rows {
-            
             for col in 0..columns {
                 var aCell = self[row,col]
                 scene += aCell ? livingCell : deadCell
