@@ -9,5 +9,3 @@ ToDo
 ====
 implement UI with SpriteKit
 
-
-  ··OOO···O····OO··OOO·O··OO·O····
