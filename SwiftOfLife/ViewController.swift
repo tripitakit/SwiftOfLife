@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         seed()
-        self.timer = NSTimer.scheduledTimerWithTimeInterval(0.001, target: self, selector: "play:", userInfo: nil, repeats: true)
+        self.timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target: self, selector: "play:", userInfo: nil, repeats: true)
     }
 
     override func didReceiveMemoryWarning() {
